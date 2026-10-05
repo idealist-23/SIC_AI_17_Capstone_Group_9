@@ -1,0 +1,10 @@
+# Hafif sürüm: PyTorch YOK. Python 3.12 önerilir (3.10-3.12).
+flask==3.1.3
+pandas
+pillow
+numpy
+matplotlib
+google-genai==2.25.0
+langgraph==1.2.12
+mediapipe==1.0.0
+onnxruntime

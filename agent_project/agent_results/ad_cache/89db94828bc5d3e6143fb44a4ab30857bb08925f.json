@@ -1,0 +1,90 @@
+{
+  "model": "TSAM (Warwick, tsam_weights.tar; epoch 7, balanced acc 0.467)",
+  "license": "Yalnızca akademik / ticari olmayan değerlendirme",
+  "video": "sample_ad.mp4",
+  "sha1": "89db94828bc5d3e6143fb44a4ab30857bb08925f",
+  "device": "cuda",
+  "note": "Kayan 5 sn pencereler (1 sn adım). expected_emotion = izleyicilerin en çok bildirmesi beklenen duygu.",
+  "segments": [
+    {
+      "start": 0,
+      "end": 5,
+      "expected_emotion": "Surprise",
+      "probs": {
+        "Anger": 0.0116,
+        "Contempt": 0.2419,
+        "Disgust": 0.0132,
+        "Fear": 0.0056,
+        "Happiness": 0.0065,
+        "Neutral": 0.1033,
+        "Sadness": 0.0,
+        "Surprise": 0.6178
+      }
+    },
+    {
+      "start": 1,
+      "end": 6,
+      "expected_emotion": "Surprise",
+      "probs": {
+        "Anger": 0.0089,
+        "Contempt": 0.1936,
+        "Disgust": 0.035,
+        "Fear": 0.0011,
+        "Happiness": 0.006,
+        "Neutral": 0.0961,
+        "Sadness": 0.0,
+        "Surprise": 0.6593
+      }
+    },
+    {
+      "start": 2,
+      "end": 7,
+      "expected_emotion": "Surprise",
+      "probs": {
+        "Anger": 0.0192,
+        "Contempt": 0.1837,
+        "Disgust": 0.1603,
+        "Fear": 0.002,
+        "Happiness": 0.0053,
+        "Neutral": 0.1397,
+        "Sadness": 0.0,
+        "Surprise": 0.4897
+      }
+    },
+    {
+      "start": 3,
+      "end": 8,
+      "expected_emotion": "Disgust",
+      "probs": {
+        "Anger": 0.0063,
+        "Contempt": 0.0396,
+        "Disgust": 0.4063,
+        "Fear": 0.0002,
+        "Happiness": 0.0019,
+        "Neutral": 0.2532,
+        "Sadness": 0.0,
+        "Surprise": 0.2925
+      }
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "expected_emotion": "Surprise",
+      "probs": {
+        "Anger": 0.001,
+        "Contempt": 0.1046,
+        "Disgust": 0.1632,
+        "Fear": 0.0,
+        "Happiness": 0.0002,
+        "Neutral": 0.3197,
+        "Sadness": 0.0,
+        "Surprise": 0.4113
+      }
+    }
+  ],
+  "timing_s": {
+    "preprocess": 0.3,
+    "model": 3.74
+  },
+  "cached": false
+}

@@ -1,0 +1,13 @@
+.venv/
+venv/
+.tools/
+.env
+__pycache__/
+*.pyc
+# Çalışma çıktıları; yalnızca örnek reklamın TSAM önbelleği repoda
+agent_results/*
+!agent_results/ad_cache/
+third_party/
+models/tsam/
+product_frames/
+product_results/
